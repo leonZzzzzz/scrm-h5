@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- ios兼容性 是否显示苹果工具栏和菜单栏。 -->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!-- 禁止缩放 -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="<%= BASE_URL %>favicon1.ico" />
+    <!-- video标签ios兼容性样式问题 -->
+    <link
+      href="https: //imgcache.qq.com/open/qcloud/video/tcplayer/tcplayer.css"
+      rel="stylesheet"
+    />
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title></title>
+    <!-- 企业微信JSDK -->
+    <script
+      type="text/javascript"
+      src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"
+    ></script>
+    <!-- 阿里iconfont Symbol -->
+    <script
+      type="text/javascript"
+      src="https://at.alicdn.com/t/font_2082024_eg5rapqthv8.js"
+    ></script>
+  </head>
+
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- echarts和v-charts, 两者有依赖关系 -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/v-charts/lib/line.min.js"></script>
+    <!-- 腾讯云点播sdk -->
+    <script src="https://cdn-go.cn/cdn/vod-js-sdk-v6/latest/vod-js-sdk-v6.js"></script>
+
+    <!-- v-charts样式 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/v-charts/lib/style.min.css">
+
+    <!-- built files will be auto injected -->
+  </body>
+</html>

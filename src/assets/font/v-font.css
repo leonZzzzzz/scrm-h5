@@ -1,0 +1,156 @@
+/* 本文件依赖 iconfont，需要放在阿里字体图标后面引入 */
+.v-font{
+  font-family: "iconfont" !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.v-font-icon-wenzhangguanli:before {
+  content: "\e67c";
+}
+
+.v-font-icon-xiansuo:before {
+  content: "\e61f";
+}
+
+.v-font-icon-liulan:before {
+  content: "\e69b";
+}
+
+.v-font-icon-fangwen:before {
+  content: "\e7c3";
+}
+
+.v-font-icon-zhuanfafasong-3:before {
+  content: "\e632";
+}
+
+.v-font-icon-kehuxiansuo:before {
+  content: "\e8cc";
+}
+
+.v-font-icon-shouji:before {
+  content: "\e60d";
+}
+
+.v-font-icon-qiyepengyouquan:before {
+  content: "\e8cb";
+}
+
+.v-font-icon-sucaihaibao:before {
+  content: "\e8c4";
+}
+
+.v-font-icon-wodekehu:before {
+  content: "\e8c5";
+}
+
+.v-font-icon-sucaiku:before {
+  content: "\e8c6";
+}
+
+.v-font-icon-mingpian:before {
+  content: "\e8c7";
+}
+
+.v-font-icon-paihangbang:before {
+  content: "\e8c8";
+}
+
+.v-font-icon-huashuku:before {
+  content: "\e8c9";
+}
+
+.v-font-icon-gonghaichi:before {
+  content: "\e8ca";
+}
+
+.v-font-icon-shipin1:before {
+  content: "\e8c3";
+}
+
+.v-font-icon-sousuo1:before {
+  content: "\e8bf";
+}
+
+.v-font-icon-xiaochengxu:before {
+  content: "\e8c0";
+}
+
+.v-font-icon-shaixuan:before {
+  content: "\e8c1";
+}
+
+.v-font-icon-shijian:before {
+  content: "\e8c2";
+}
+
+.v-font-icon-sanjiaoxing:before {
+  content: "\e6bd";
+}
+
+.v-font-icon-PDFwenjian:before {
+  content: "\e8be";
+}
+
+.v-font-icon-feiji2:before {
+  content: "\e8bd";
+}
+
+.v-font-icon-guanbi:before {
+  content: "\e8af";
+}
+
+.v-font-icon-jiantoushang:before {
+  content: "\e8b0";
+}
+
+.v-font-icon-bianji:before {
+  content: "\e8b1";
+}
+
+.v-font-icon-jiantouxia:before {
+  content: "\e8b2";
+}
+
+.v-font-icon-pptwenjian:before {
+  content: "\e8b3";
+}
+
+.v-font-icon-sousuo:before {
+  content: "\e8b4";
+}
+
+.v-font-icon-tianjia:before {
+  content: "\e8b5";
+}
+
+.v-font-icon-EXCELwenjian:before {
+  content: "\e8b6";
+}
+
+.v-font-icon-nanxing:before {
+  content: "\e8b7";
+}
+
+.v-font-icon-nvxing:before {
+  content: "\e8b8";
+}
+
+.v-font-icon-shipin:before {
+  content: "\e8b9";
+}
+
+.v-font-icon-feiji:before {
+  content: "\e8ba";
+}
+
+.v-font-icon-wordwenjian:before {
+  content: "\e8bb";
+}
+
+.v-font-icon-TXTwenjian:before {
+  content: "\e8bc";
+}
